@@ -3,7 +3,6 @@
 //
 //  Created by Timothy Sanders on 6/28/12.
 //  Copyright (c) 2012 HiddenJester Software.
-//  Copyright (c) 2012 HiddenJester Software.
 // This work is licensed under the Creative Commons Attribution-ShareAlike 4.0
 // International License. To view a copy of this license, visit
 // http://creativecommons.org/licenses/by-sa/4.0/deed.en_US.
