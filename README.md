@@ -11,4 +11,7 @@ QuickAccess category for UISplitViewController to get the "left" (master) contro
  controller and the "detail" controller respectively.
  */
 
+Also note that the category files are named UISplitViewController+QuickAccess, but GitHub changed the + to a - in the
+name. Personally I keep it in a folder with the + symbol, which is fine on HFS.
+
 Committed to Github on 2014-02-13.
