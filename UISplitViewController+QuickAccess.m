@@ -11,12 +11,22 @@
 
 @implementation UISplitViewController (QuickAccess)
 
-- (UIViewController*)leftController {
-    return [[self.viewControllers objectAtIndex:0] topViewController];
+- (UIViewController *)leftController {
+	UIViewController * leftVC = [[self viewControllers] objectAtIndex:0];
+	
+	if ([leftVC isKindOfClass:[UINavigationController class]]) {
+		leftVC = [(UINavigationController *)leftVC topViewController];
+	}
+    return  leftVC;
 }
 
-- (UIViewController*)rightController {
-    return [[self.viewControllers lastObject] topViewController];    
+- (UIViewController *)rightController {
+	UIViewController * rightVC = [[self viewControllers] lastObject];
+	
+	if ([rightVC isKindOfClass:[UINavigationController class]]) {
+		rightVC = [(UINavigationController *)rightVC topViewController];
+	}
+    return rightVC;
 }
 
 @end

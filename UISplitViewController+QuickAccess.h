@@ -9,16 +9,17 @@
 
 #import <UIKit/UIKit.h>
 
-/* This is almost embarrassingly simple. Thing is that I'm always having
- to get the left or the right controller from a UISplitViewController.
- Accessing them is straightforward, but does require nesting four messages
- from the UISplitViewController. So this just wraps those calls up into a
- simple "leftController" and "rightController", which return the "master"
- controller and the "detail" controller respectively.
- */
+/*
+ I often want the "left content view controller" or the "right content view controller".
+ Many times the UIViewControllers in viewControllers are actually UINavigationControllers and then
+ I want to get the topViewController from that. So these methods pull the left or right VC and then
+ check if they are UINavigationControllers. If they are then they go ahead and return the controller's
+ topViewController property.
+*/
+
 @interface UISplitViewController (QuickAccess)
 
-@property (weak, readonly, nonatomic) UIViewController *leftController;
-@property (weak, readonly, nonatomic) UIViewController *rightController;
+@property (weak, readonly, nonatomic) UIViewController * leftController;
+@property (weak, readonly, nonatomic) UIViewController * rightController;
 
 @end
