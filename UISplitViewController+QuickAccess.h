@@ -7,7 +7,7 @@
 // International License. To view a copy of this license, visit
 // http://creativecommons.org/licenses/by-sa/4.0/deed.en_US.
 
-#import <UIKit/UIKit.h>
+@import UIKit;
 
 /*
  I often want the "left content view controller" or the "right content view controller".
