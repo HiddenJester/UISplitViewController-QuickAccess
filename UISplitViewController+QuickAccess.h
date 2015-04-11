@@ -7,8 +7,6 @@
 // International License. To view a copy of this license, visit
 // http://creativecommons.org/licenses/by-sa/4.0/deed.en_US.
 
-#import <UIKit/UIKit.h>
-
 /*
  I often want the "left content view controller" or the "right content view controller".
  Many times the UIViewControllers in viewControllers are actually UINavigationControllers and then

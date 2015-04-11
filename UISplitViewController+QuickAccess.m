@@ -7,6 +7,8 @@
 // International License. To view a copy of this license, visit
 // http://creativecommons.org/licenses/by-sa/4.0/deed.en_US.
 
+@import UIKit;
+
 #import "UISplitViewController+QuickAccess.h"
 
 @implementation UISplitViewController (QuickAccess)
