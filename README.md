@@ -1,7 +1,12 @@
 UISplitViewController-QuickAccess
 =================================
 
-QuickAccess category for UISplitViewController to get the "left" (master) controller or "right" (detail) controller quickly and easily.
+QuickAccess category for `UISplitViewController` to get the "left" (master) controller or "right" (detail) controller 
+quickly and easily. When working with a `UISplitViewController` I frequently want to get the master controller or the
+detail controller which requires unpacking the `viewControllers` array. Worse, often the top level controllers in
+viewArray are actually `UINavigationControllers` and in that case what I really want is the `UINavigationController's
+topViewcontroller` property.
+However, this is req
 
 /* This is almost embarrassingly simple. Thing is that I'm always having
  to get the left or the right controller from a UISplitViewController.
