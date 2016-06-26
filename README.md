@@ -1,6 +1,8 @@
 UISplitViewController-QuickAccess
 =================================
 
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+
 QuickAccess category for `UISplitViewController` to get the "left" (master) controller or "right" (detail) controller 
 quickly and easily. When working with a `UISplitViewController` I frequently want to get the master controller or the
 detail controller which requires unpacking the `viewControllers` array. Worse, often the top level controllers in
