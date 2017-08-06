@@ -13,7 +13,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3B8CCAB41D84ECA3006870D7 /* module.map */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.map; sourceTree = "<group>"; };
 		3BD4FDC61D1F691800DC6031 /* UISplitViewControllerQuickAccess.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UISplitViewControllerQuickAccess.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BD4FDC91D1F691800DC6031 /* UISplitViewControllerQuickAccess.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UISplitViewControllerQuickAccess.h; sourceTree = "<group>"; };
 		3BD4FDCB1D1F691800DC6031 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -57,7 +56,6 @@
 				3BD4FDCB1D1F691800DC6031 /* Info.plist */,
 				3BD4FDD11D1F698200DC6031 /* UISplitViewController+QuickAccess.h */,
 				3BD4FDD21D1F698200DC6031 /* UISplitViewController+QuickAccess.m */,
-				3B8CCAB41D84ECA3006870D7 /* module.map */,
 			);
 			path = UISplitViewControllerQuickAccess;
 			sourceTree = "<group>";
@@ -254,7 +252,6 @@
 				INFOPLIST_FILE = UISplitViewControllerQuickAccess/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = UISplitViewControllerQuickAccess/module.map;
 				PRODUCT_BUNDLE_IDENTIFIER = com.hiddenjester.UISplitViewControllerQuickAccess;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -273,7 +270,6 @@
 				INFOPLIST_FILE = UISplitViewControllerQuickAccess/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = UISplitViewControllerQuickAccess/module.map;
 				PRODUCT_BUNDLE_IDENTIFIER = com.hiddenjester.UISplitViewControllerQuickAccess;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
