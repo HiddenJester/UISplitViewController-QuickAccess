@@ -1,6 +1,6 @@
 UISplitViewController-QuickAccess
 =================================
-
+[![CocoaPods Compatible](https://img.shields.io/badge/Cocoapod-Compatible-brightgreen.svg?style=flat)](https://cocoapods.org)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
 QuickAccess category for `UISplitViewController` to get the "left" (master) controller or "right" (detail) controller 
@@ -10,4 +10,4 @@ viewArray are actually `UINavigationControllers` and in that case what I really 
 topViewcontroller` property.
 
 Also note that the category files are named UISplitViewController+QuickAccess, but GitHub changed the + to a - in the
-name. Personally I keep it in a folder with the + symbol, which is fine on HFS.
+name.
