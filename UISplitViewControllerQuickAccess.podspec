@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = "A logger that supports logging levels, automatic rotation of logs based on size, monitoring multiple logfiles (intended for extensions that have their own logs), and a control panel that can show the log(s) on target hardware and mail them to a developer."                   
+  s.description  = "QuickAccess category for `UISplitViewController` to get the 'left' (master) controller or 'right' (detail) controller quickly and easily. When working with a `UISplitViewController` I frequently want to get the master controller or the detail controller which requires unpacking the `viewControllers` array. Worse, often the top level controllers in viewArray are actually `UINavigationControllers` and in that case what I really want is the `UINavigationController's topViewcontroller` property."                   
 
   s.homepage     = "https://github.com/HiddenJester/UISplitViewController-QuickAccess"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
